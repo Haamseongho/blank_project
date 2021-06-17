@@ -1,0 +1,30 @@
+{
+  "name": "blank",
+  "version": "1.0.0",
+  "description": "blank project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npx nodemon -e js,html app.js"
+  },
+  "keywords": [],
+  "author": "haams",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Haamseongho/blank_project.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Haamseongho/blank_project/issues"
+  },
+  "homepage": "https://github.com/Haamseongho/blank_project#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cookie-parser": "^1.4.5",
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "morgan": "^1.10.0",
+    "nunjucks": "^3.2.3",
+    "uuid4": "^2.0.2"
+  }
+}
